@@ -2,11 +2,8 @@
 
 #Technoligies Used
 
-#Front-End
-HTML, CSS, JS
+Front-End  -  HTML, CSS, JS
 
-#BackEnd
-NodeJS, Express, Mongodb
+BackEnd    -  NodeJS, Express, Mongodb
 
-#Deploy
-Netlify Software
+Deploy     -  Netlify Software
