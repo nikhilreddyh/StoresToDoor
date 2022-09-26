@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts -->
+    <!-- 1. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 2. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Praise&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+
+    <!-- icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Stores To Door</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#" class="logo"> StoresToDoor.</a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#how" class="main-nav-link">How it works</a>
+          </li>
+          <li>
+            <a href="#testi" class="main-nav-link">Testimonials</a>
+          </li>
+          <li>
+            <a href="#support" class="main-nav-link">Support</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="main-nav-link main-nav-login"
+              style="color: #087f5b"
+              >Log in</a
+            >
+          </li>
+          <li>
+            <a href="#" class="main-nav-link nav-cta main-nav-signup"
+              >Sign up</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- Hero -->
+      <section class="section-hero" id="hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              We create and manage online sites for each shop
+            </h1>
+            <p class="hero-description">
+              Our goal is to bring local shops closer to our users, which helps
+              to save time.The platform is a beautiful combination of smoothness
+              and perfection that is responsive on all device sizes.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm">Open Account</a>
+            <a href="#" class="btn btn--outline">View a Demo</a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="images/hero-img.png"
+              alt="Path from stores to door"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="section-how" id="how">
+        <section class="container">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">
+            Expand you business in 3 simple steps
+          </h2>
+        </section>
+        <section class="container flex">
+          <div class="left">
+            <div class="border"></div>
+            <div class="step-number-box">
+              <p class="step-number">1</p>
+            </div>
+            <div class="step-number-box">
+              <p class="step-number">2</p>
+            </div>
+            <div class="step-number-box">
+              <p class="step-number">3</p>
+            </div>
+          </div>
+          <div class="right">
+            <div>
+              <h3 class="heading-tertiary step-heading">
+                Register and launch your online store
+              </h3>
+              <p class="step-description">
+                Create a customer account and add store information and
+                available items; you can easily do CRUD operations and make them
+                available to users for sale.
+              </p>
+            </div>
+            <div>
+              <h3 class="heading-tertiary step-heading">
+                Register and buy items from local stores
+              </h3>
+              <p class="step-description">
+                Buy things from well-known local stores to save time. You may
+                explore stores based on your location. Your orders will be
+                delivered in less time.
+              </p>
+            </div>
+            <div>
+              <h3 class="heading-tertiary step-heading">
+                Enjoy quick delivery and reduced prices
+              </h3>
+              <p class="step-description">
+                Because the store is close to your location, shipping rates will
+                be minimal, and delivery speed will be lightning fast.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section-testimonials" id="testi">
+        <section class="container testi-header">
+          <span class="subheading">Testimonials</span>
+          <h3 class="heading-secondary">What out clients say about us</h3>
+        </section>
+
+        <section class="container testi-main">
+          <div class="testi-left">
+            <ion-icon
+              name="arrow-back-outline"
+              class="testi-left-arrow"
+            ></ion-icon>
+          </div>
+          <div class="testi-right">
+            <ion-icon
+              name="arrow-forward-outline"
+              class="testi-right-arrow"
+            ></ion-icon>
+          </div>
+
+          <div class="testi-box testi-box--1">
+            <ion-icon name="checkmark-done" class="mark"></ion-icon>
+            <p class="review">
+              This platform makes it simple to start and manage an online shop,
+              which I loved.
+            </p>
+            <span class="testi-border"></span>
+            <img src="images/customer-1.jpg" alt="" class="test-img" />
+            <p class="testi-name">Arun Kumar</p>
+          </div>
+
+          <div class="testi-box testi-box--2">
+            <ion-icon name="checkmark-done" class="mark"></ion-icon>
+            <p class="review">
+              I've been working with these guys for a long time and I can say
+              that my online site is in perfect hands.
+            </p>
+            <span class="testi-border"></span>
+            <img src="images/customer-2.jpg" alt="" class="test-img" />
+            <p class="testi-name">Allan</p>
+          </div>
+
+          <div class="testi-box testi-box--3">
+            <ion-icon name="checkmark-done" class="mark"></ion-icon>
+            <p class="review">
+              I expanded my business with this low-maintenance product, thanks
+              to stores to door for such a brilliant idea.
+            </p>
+            <span class="testi-border"></span>
+            <img src="images/customer-3.jpg" alt="" class="test-img" />
+            <p class="testi-name">Tanya</p>
+          </div>
+        </section>
+      </section>
+
+      <!-- Support -->
+      <section class="section-support" id="support">
+        <section class="container support-main">
+          <div class="support-left">
+            <h3 class="heading-tertiary support-heading">Need help?</h3>
+            <div class="box box--1">
+              <div class="icon-box">
+                <ion-icon name="call" class="icon"></ion-icon>
+              </div>
+              <div class="text-box">
+                <p class="text--1">+91 9347933721</p>
+                <p class="text--2">Support line</p>
+              </div>
+            </div>
+            <div class="box box--2">
+              <div class="icon-box">
+                <ion-icon name="mail-unread" class="icon"></ion-icon>
+              </div>
+              <div class="text-box">
+                <p class="text--1">help@storestodoor.com</p>
+                <p class="text--2">Suport Email</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="support-right">
+            <div class="ques-box ques-box--1">
+              <p class="ques">How do i open an shop online?</p>
+              <ion-icon name="add" class="icon"></ion-icon>
+            </div>
+            <div class="answer-box answer-box--1 hide-answer">
+              -> Sign up and add shop info and products for sale.
+            </div>
+
+            <div class="ques-box ques-box--2">
+              <p class="ques">How do i order a product?</p>
+              <ion-icon name="add" class="icon"></ion-icon>
+            </div>
+            <div class="answer-box answer-box--2 hide-answer">
+              -> log in and filter shops according to your locality and buy from
+              you fav shops.
+            </div>
+
+            <div class="ques-box ques-box--3">
+              <p class="ques">How to add and delete products?</p>
+              <ion-icon name="add" class="icon"></ion-icon>
+            </div>
+            <div class="answer-box answer-box--3 hide-answer">
+              -> click on + symbol to add and click on edit symbol to remove
+              product.
+            </div>
+
+            <div class="ques-box ques-box--4">
+              <p class="ques">How does Stores to Door works?</p>
+              <ion-icon name="add" class="icon"></ion-icon>
+            </div>
+            <div class="answer-box answer-box--4 hide-answer">
+              -> check section how it works.
+            </div>
+
+            <div class="ques-box ques-box--5">
+              <p class="ques">Can I have two accounts on the same mail id?</p>
+              <ion-icon name="add" class="icon"></ion-icon>
+            </div>
+            <div class="answer-box answer-box--5 hide-answer">
+              -> Yes, but password should be different.
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Footer -->
+      <section class="section-footer">
+        <section class="footer-top">
+          <a href="#" class="logo footer-logo"> StoresToDoor.</a>
+          <ion-icon name="logo-instagram" class="footer-icon"></ion-icon>
+          <ion-icon name="logo-facebook" class="footer-icon"></ion-icon>
+          <ion-icon name="logo-twitter" class="footer-icon"></ion-icon>
+          <ion-icon name="logo-youtube" class="footer-icon"></ion-icon>
+        </section>
+        <section class="footer-bottom">
+          <p class="footer-text">
+            Copyright &copy; 2022 by Stores To Door, Inc. All rights reserved.
+          </p>
+          <div class="teammates">
+            <div>M Jaipal</div>
+            <div>H Nikhil Reddy</div>
+            <div>S Likhil Srinivas</div>
+            <div>S V Nagendra</div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- log in -->
+    <section class="section-login hide-login">
+      <span class="form-close">&times;</span>
+      <h3 class="form-heading">LOG IN</h3>
+      <form action="#">
+        <div class="type-box">
+          <select id="type" name="type" class="input-select" required>
+            <option value="user">user</option>
+            <option value="client">client</option>
+            <option value="admin">admin</option>
+          </select>
+          <label for="type" class="label-type">type</label>
+        </div>
+        <input
+          type="text"
+          name="id"
+          class="input-text input"
+          placeholder="Phno / E-mail"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          class="input-text input"
+          placeholder="password"
+          required
+        />
+        <input type="submit" value="log in" class="input-submit input" />
+      </form>
+      <p class="message">Forgot your password?</p>
+    </section>
+
+    <!-- sign up -->
+    <section class="section-signup hide-signup">
+      <span class="form-close">&times;</span>
+      <h3 class="form-heading">SIGN UP</h3>
+      <form action="#">
+        <div class="type-box">
+          <select id="type" name="type" class="input-select" required>
+            <option value="user">user</option>
+            <option value="client">client</option>
+          </select>
+          <label for="type" class="label-type">type</label>
+        </div>
+        <input
+          type="text"
+          name="id"
+          class="input-text input"
+          placeholder="Name"
+          required
+        />
+        <input
+          type="email"
+          name="id"
+          class="input-text input"
+          placeholder="E-mail"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          class="input-text input"
+          placeholder="Password"
+          required
+        />
+        <input
+          type="text"
+          name="mobile"
+          class="input-text input"
+          placeholder="Phone Number"
+          required
+        />
+        <input type="submit" value="sign up" class="input-submit input" />
+      </form>
+      <p class="message message-login">Log in with your account</p>
+    </section>
+
+    <section class="section-overlay hide-overlay"></section>
+
+    <!-- JS links -->
+    <script defer src="scripts/script.js"></script>
+  </body>
+</html>
