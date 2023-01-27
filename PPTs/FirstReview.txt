@@ -1,0 +1,82 @@
+Good Morning,
+
+Our Title is Stores to Door
+
+my team mates are myself and ....
+we are guided by M Raja sir.
+
+
+------slide 1-------  (Objective)
+
+our objective is to create a platfrom where a client who wants to open their own online ecommerce site can open thier online shop. Any kind of shop like groceries, hotel, electronics etc.
+
+we allow users to browse shops according to their locality and can order items from there well-known or favourite local shops.
+
+
+------slide 2-------  (Existing system)
+
+There is no system upto now exaclty matched with our idea.
+
+But if we want to create an ecommerce site without any coding we can develop and manage by using open source technologies like wordpress etc.
+
+and if clients want to sell their products individually they can sell by placing it in flipkart or amazon. But they cannot place according to their shop wise.
+
+
+
+------slide 3------- (Issues)
+
+As said we can develop application easily using wordpress but getting clients may be difficult.
+
+all products are not trust worthy from flipkart or amazon.
+if any fake product is delivered we cannot go the seller and ask them.
+
+and the seller is not from our locality shipping fees can be expensive
+and we can experince product dealy also.
+
+
+
+------slide 4------- (proposed system)
+
+same as objectve
+
+
+------slide 5------- (block diagram)
+
+same explain cheyali by showing the diagram
+
+
+
+------slide 6------- (advantages)
+
+user can buy from trutsted or well known shops
+
+since the shop is near we can go the shop and can raise the question if fake product is delivered.
+
+shipping fees are low and no delivery delay since the distance is less
+
+
+
+------slide 7------- (literature)
+
+This the literature surevey we took 6 papers
+
+
+
+------slide 10------- (software requirement)
+
+
+for front end we are using HTML, CSS, JavaScript
+for back end NodeJs, Express
+
+we using VsCode as a code editor
+and using Netlify for deploying
+
+
+
+------slide 11-------  (phases)
+
+we planned to give three months for front-end, two months for backend and remaining for paper work
+
+
+
+------slide 12-------  (thank you)

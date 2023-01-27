@@ -1,0 +1,169 @@
+.container-products {
+  /* background-color: darkseagreen; */
+  width: 80%;
+  margin: 6.4rem auto;
+}
+
+.nav-inside {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  align-items: center;
+  height: 30px;
+
+  font-size: 1.4rem;
+}
+
+.nav-inside div {
+  background-color: #077252;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 35px;
+}
+
+.nav-inside div:hover {
+  background-color: #087f5b;
+}
+
+.edit-link-icon,
+.add-link-icon {
+  font-size: 2rem;
+}
+
+.add-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.products-movements {
+  /* background-color: lightcoral; */
+
+  padding: 2.4rem 1.2rem;
+}
+
+.product-box {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr) auto;
+  align-items: center;
+  font-size: 1.6rem;
+
+  /* background-color: lightblue; */
+  padding: 1rem 0.5rem;
+  border: 2px solid #ddd;
+  margin: 2rem;
+}
+
+.product-box--0 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  border: none;
+}
+
+.product-img {
+  width: 6rem;
+}
+
+/* .btn--edit {
+  border: none;
+  background: none;
+  background-color: #077252;
+  color: #fff;
+  padding: 8px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+} */
+
+.edit-link-icon {
+  color: #077252;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+
+.edit-link-icon:hover {
+  color: #087f5b;
+}
+
+.overlay {
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 10;
+}
+
+.edit-box {
+  transition: all 0.5s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 60rem;
+
+  z-index: 20;
+  background-color: #fff;
+  padding: 3.2rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.edit-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 15px;
+}
+
+.input {
+  margin: 1.8rem 0;
+}
+
+.edit-form-submit {
+  background: none;
+  background-color: rgb(55, 55, 146);
+  color: #fff;
+  border: none;
+
+  grid-column: 1 / span 2;
+  cursor: pointer;
+}
+
+.edit-form-submit:hover {
+  background-color: rgb(49, 49, 130);
+}
+
+.edit-form-close {
+  font-size: 4rem;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.images-box {
+  grid-column: 1 / span 2;
+  padding: 10px 5px;
+  display: flex;
+  gap: 15px;
+}
+
+.img {
+  background-color: #ccc;
+  height: 100px;
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+
+    <link rel="stylesheet" href="styles/products.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/about.css">
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 2. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Praise&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <nav class="nav">
+        <h2 class="logo">StoresToDoor</h2>
+        <div class="search-bar">
+          <input type="text" class="search-input" placeholder="Search" />
+          <ion-icon name="search-outline" class="search-icon"></ion-icon>
+        </div>
+        <ul class="nav-links">
+          <li><a href="" class="nav-link about-link">About</a></li>
+          <li><a href="" class="nav-link products-link">Products</a></li>
+          <li><a href="" class="nav-link orders-link">Orders</a></li>
+
+          <div class="bar bar-products"></div>
+        </ul>
+      </nav>
+
+      <section class="container-about">
+        <form action="" class="form">
+          <div>
+            <label for="shopname">Shop Name</label>
+            <input
+              type="text"
+              id="shopname"
+              name="shopname"
+              class="input-shopname"
+            />
+          </div>
+        <form action="" class="form">
+          <div>
+            <label for="category">Category</label>
+            <input
+              type="text"
+              id="category"
+              name="category"
+              class="input-category"
+            />
+          </div>
+          <div>
+            <label for="pincode">Pincode</label>
+            <input
+              type="text"
+              id="pincode"
+              name="pincode"
+              class="input-pincode"
+            />
+          </div>
+          <div>
+            <label for="ownername">Owner Name</label>
+            <input
+              type="text"
+              id="ownername"
+              name="ownername"
+              class="input-ownername"
+            />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="text"
+              id="password"
+              name="password"
+              class="input-password"
+            />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" class="input-phone" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="input-email" />
+          </div>
+          <div>
+            <label for="shop-open">Shop Opens</label>
+            <input
+              type="number"
+              id="shop-open"
+              name="shop-open"
+              class="input-shop-open"
+            />
+          </div>
+          <div>
+            <label for="shop-close">Shop Closes</label>
+            <input
+              type="number"
+              id="shop-close"
+              name="shop-close"
+              class="input-shop-close"
+            />
+          </div>
+          <div class="address-box">
+            <label for="address">Address</label>
+            <textarea id="address" name="address" class="input-address">
+            </textarea>
+          </div>
+
+          <input type="submit" class="submit" value="Save Changes"/>
+
+          <div class="edit-icon-box">
+            <ion-icon name="create-outline" class="edit-icon"></ion-icon>
+          </div>
+        </form>
+      </section>
+
+      <section class="container-products">
+        <nav class="nav-inside">
+          <!-- <div class="edit-link">
+            <ion-icon name="create-outline" class="edit-link-icon"></ion-icon>
+            Edit
+          </div>
+          <div class="save-link">Save Changes</div> -->
+          <div class="add-link">
+            <ion-icon name="add-circle-outline" class="add-link-icon"></ion-icon>
+            Add Product
+          </div>
+        </nav>
+
+        <div class="products-movements">
+          <!-- <div class="product-box product-box--0">
+            <p class="img-heading">Image</p>
+            <p class="itemname-heading">Item Name</p>
+            <p class="category-heading">Category</p>
+            <p class="quantity-avilable-heading">Quantity</p>
+            <p class="units-heading">Units</p>
+            <p class="price-per-quantity-heading">Price/Quantity</p>
+            <p class="discount-heading">Discount</p>
+            <p class="edit-heading">Edit</p>
+          </div> -->
+        </div>
+
+        <div class="edit-box hidden">
+          <span class="edit-form-close">&times</span>
+          <form action="" class="edit-form">
+            <div class="input--itemname input">
+              <label for="itemname" class="itemname">Item Name</label>
+              <input type="text" name="itemname" id="itemname">
+            </div>
+            <div class="input--category input">
+              <label for="category" class="category">Category</label>
+              <input type="text" name="category" id="category">
+            </div>
+            <div class="input--quantity input">
+              <label for="quantity" class="quantity">Quantity</label>
+              <input type="text" name="quantity" id="quantity">
+            </div>
+            <div class="input--units input">
+              <label for="units" class="units">Units</label>
+              <input type="text" name="units" id="units">
+            </div>
+            <div class="input--price input">
+              <label for="price" class="price">Price Per Quantity</label>
+              <input type="text" name="price" id="price">
+            </div>
+            <div class="input--discount input">
+              <label for="discount" class="discount">Discount</label>
+              <input type="text" name="discount" id="discount">
+            </div>
+            <div class="images-box">
+              <div class="img"></div>
+              <div class="img"></div>
+              <div class="img"></div>
+            </div>
+            <input type="submit" class="edit-form-submit" value="Save Changes">
+          </form>
+        </div>
+        <div class="overlay hidden"></div>
+
+        
+      </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
